@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./Logo.png";
 import tractor from "./tractor.png";
 import tata from "./tata.png";
@@ -208,6 +208,8 @@ function App() {
       setCurrentImg(currentImg + 1);
     }
   };
+
+  useEffect(()=>{},[currentImg]);
 
   const handleClick = () => {
     const menu = document.querySelector("#menu");

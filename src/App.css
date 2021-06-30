@@ -93,15 +93,15 @@ font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
 
-.nav-social i:nth-child(1) {
+.nav-social a:nth-child(1) {
   color: #3b5998;
 }
 
-.nav-social i:nth-child(2) {
+.nav-social a:nth-child(2) {
   color: #075E54;
 }
 
-.nav-social i:nth-child(3), .contact-container .phone a i{
+.nav-social a:nth-child(3), .contact-container .phone a i{
   color: #34B7F1;
 }
 
