@@ -282,7 +282,7 @@ function App() {
       <main>
         <div id="Main">
           <img id="logo-img" src={tractor} height="166" width="325" />
-          <h1>Fabrica de Maquinaría Agrícola en la Sexta Región.</h1>
+          <h1>Fábrica de Maquinaría Agrícola en la Sexta Región.</h1>
           <img src={logo} height="92" width="102" />
           <p> En diseño, construcción y durabilidad, siempre los mejores.</p>
           <button
@@ -297,12 +297,12 @@ function App() {
           <h1>Patricio Palma.</h1>
           <img src={tata} height="330" width="322" />
           <p>
-            Ingeniero aeronautico de profesión, se dedica hace más de 60 años a
-            la fabricación de maquinaria agricola. &nbsp;Pionero en su ambito,
+            Ingeniero aeronáutico de profesión, se dedica hace más de 60 años a
+            la fabricación de maquinaria agrícola. &nbsp;Pionero en su ámbito,
             inventor, diseñador, fabricante y mucho más. Comenzo construyendo
-            maquinas desgranadoras de maíz. Hoy en día ofrece una amplia gama de
-            productos agricolas tales como: arados reversible de 2, 3 y 4
-            puntas,rastras 22 - 24 y 26 discos, killers, gimpa, mergadores,
+            máquinas desgranadoras de maíz. Hoy en día ofrece una amplia gama de
+            productos agricolas tales como: arados reversibles de 2, 3 y 4
+            puntas, rastras 22 - 24 y 26 discos, killers, gimpa, mergadores,
             abonadores, arados sequiadores, palas, etc. "Todos los diseños son
             adaptables a la capacidad de su tractor o su imaginación".
           </p>
@@ -312,8 +312,8 @@ function App() {
           <h1 id="products">Productos</h1>
           <div id="product-list">
             <p>
-              Ofrecemos una amplia variedad de productos agricolas con diseños
-              elegantes, faciles de usar y construidos con materiales que duran
+              Ofrecemos una amplia variedad de productos agrícolas con diseños
+              elegantes, fáciles de usar y construidos con materiales que duran
               varias temporadas:
             </p>
             <ul>
@@ -355,7 +355,7 @@ function App() {
           <h1>Galería</h1>
           <div>
             <div id="big-img">
-              <h1>Maquina: {images[currentImg].title}</h1>
+              <h1>Máquina: {images[currentImg].title}</h1>
               <h2>
                 Descripción: {images[currentImg].name}.{" "}
                 {images[currentImg].description}
@@ -378,7 +378,7 @@ function App() {
         </div>
 
         <div id="Contacto">
-          <h1>Contactanos</h1>
+          <h1>Contáctanos</h1>
           <div id="form-content">
             <form onSubmit={onSubmit}>
               <fieldset>
@@ -394,7 +394,7 @@ function App() {
                 />
               </fieldset>
               <fieldset>
-                <label for="txt-phone">Telefono:</label>
+                <label for="txt-phone">Teléfono:</label>
                 <input
                   type="tel"
                   id="txt-phone"
@@ -491,7 +491,7 @@ function App() {
         <div id="PopUp-content" style={display}>
           <div className="frame">
             <div id="frame-content">
-              <h1>Tu mensaje ha sido envíado.</h1>
+              <h1>Tu mensaje ha sido enviado.</h1>
               <button onClick={() => {}}>Aceptar</button>
             </div>
           </div>
