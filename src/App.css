@@ -598,6 +598,7 @@ nav #logo {
   main {
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
   }
 
   #Main {
