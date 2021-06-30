@@ -266,7 +266,7 @@ function App() {
               >
                 <i class="fab fa-facebook icon"></i>
               </a>
-              <a href="https://wa.me/56962242512?text=Hola%20como%20estás?%20..." target="_blank" title="Whatsapp me">
+              <a href="https://wa.me/56977160190?text=Hola%20Pato%20como%20estás?%20..." target="_blank" title="Whatsapp me">
                 <i class="fab fa-whatsapp icon"></i>
               </a>
               <a href="tel:+569-7-716-0190" title="Llamame">
